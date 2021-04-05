@@ -79,7 +79,7 @@ export default {
             'logUserOut'
         ]),
         logout() {
-            axios.post('logout').then(response => {
+            axios.post('/logout').then(response => {
                 this.logUserOut();
                 this.router.push({ name: 'login' });
             })

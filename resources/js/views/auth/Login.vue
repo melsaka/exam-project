@@ -42,7 +42,7 @@
             </div>
         </form>
         <div class="text-center text-muted mt-3">
-            Don't have account yet? <router-link :to="{name: 'regsiter'}">Sign up</router-link>
+            Don't have account yet? <router-link :to="{name: 'register'}">Sign up</router-link>
         </div>
     </div>
 </div>
